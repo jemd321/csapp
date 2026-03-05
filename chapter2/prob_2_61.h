@@ -1,6 +1,9 @@
-#ifndef PROB_2_61_H
-#define PROB_2_61_H
+#ifndef CSAPP_PROB_2_61_H
+#define CSAPP_PROB_2_61_H
 
-int give_one(void);
+int any_bit_is_one(int x);
+int any_bit_is_zero(int x);
+int any_bit_least_sig_is_one(int x);
+int any_bit_most_sig_is_zero(int x);
 
-#endif
+#endif //CSAPP_PROB_2_61_H
