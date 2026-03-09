@@ -6,3 +6,31 @@ add_executable(prob_2_61
         tests/test_case.c
         ${COMMON_DIR}/library.c
 )
+
+add_executable(prob_2_63
+        prob_2_63.c
+        tests/test_2_63.c
+        tests/test_case.c
+        ${COMMON_DIR}/library.c
+)
+
+add_executable(prob_2_64
+prob_2_64.c
+tests/test_2_64.c
+tests/test_case.c
+${COMMON_DIR}/library.c
+)
+
+add_executable(prob_2_65
+        prob_2_65.c
+        tests/test_2_65.c
+        tests/test_case.c
+        ${COMMON_DIR}/library.c
+)
+
+add_executable(prob_2_66
+        prob_2_66.c
+        tests/test_2_66.c
+        tests/test_case.c
+        ${COMMON_DIR}/library.c
+)

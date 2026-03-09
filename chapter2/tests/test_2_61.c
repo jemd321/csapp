@@ -39,13 +39,13 @@ int main() {
     run_test_cases(any_bit_is_one, test_cases_a, 5);
     printf("A Tests Passed.\n");
     printf("Testing B...\n");
-    run_test_cases(any_bit_is_one, test_cases_b, 5);
+    run_test_cases(any_bit_is_zero, test_cases_b, 5);
     printf("B Tests Passed.\n");
     printf("Testing C...\n");
-    run_test_cases(any_bit_is_one, test_cases_c, 5);
+    run_test_cases(any_bit_least_sig_is_one, test_cases_c, 5);
     printf("C Tests Passed.\n");
     printf("Testing D...\n");
-    run_test_cases(any_bit_is_one, test_cases_d, 5);
+    run_test_cases(any_bit_most_sig_is_zero, test_cases_d, 5);
     printf("D Tests Passed.\n");
     return 0;
 }
