@@ -34,3 +34,17 @@ add_executable(prob_2_66
         tests/test_case.c
         ${COMMON_DIR}/library.c
 )
+
+add_executable(prob_2_68
+        prob_2_68.c
+        tests/test_2_68.c
+        tests/test_case.c
+        ${COMMON_DIR}/library.c
+)
+
+add_executable(prob_2_69
+        prob_2_69.c
+        tests/test_2_69.c
+        tests/test_case.c
+        ${COMMON_DIR}/library.c
+)
